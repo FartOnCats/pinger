@@ -9,5 +9,5 @@ ip:192.168.0.144<br/>
 ip:youtube.com<br/>
 <br/>
 <br/>
-![ScreenShot of script](https://raw.githubusercontent.com/FartOnCats/pinger/master/ss.png)
+![ScreenShot of script](https://raw.githubusercontent.com/FartOnCats/pinger/master/ss.PNG)
 
