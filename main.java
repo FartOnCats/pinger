@@ -30,8 +30,9 @@ public class main {
 	
     public static void main(String[] args) throws UnknownHostException, IOException, InterruptedException {
         BufferedReader reader;
-		clrscr();
+	clrscr();
         ArrayList addresses = new ArrayList();
+	ArrayList hostnames = new ArrayList();
         try {
 			reader = new BufferedReader(new FileReader(System.getenv("appdata") + "/ping.txt"));
 			String line = reader.readLine();
@@ -53,7 +54,15 @@ public class main {
 					}else {
 						response = 	"-[**UNREACHABLE**]-";
 					}
-					System.out.println((String) addresses.get(i) + " : " + response + "\n");
+					
+					String Hostname;
+					if(hostnames.get(i).equals("")) {
+						Hostname = inet.getHostName();
+					}else {
+						Hostname = (String)hostnames.get(i);
+					}
+					
+					System.out.println(Hostname + " : " + response + "\n");
 				}
 				TimeUnit.SECONDS.sleep(linecount * 3);
 				clrscr();
