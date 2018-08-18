@@ -1,12 +1,12 @@
 # pinger
 A tool to test connection to a website<br/>
 To use the file %appdata%/ping.txt must be present<br/>
-the format for the txt file doesnt matter much aslong as each address starts with a colon(:)<br/>
+the format for the txt file is Hostname:ipaddress/domainname. The hostname doesnt matter as long as the ip has a colon(:) before it<br/>
 example<br/>
-ip:192.168.0.1<br/>
-ip:google.com<br/>
+:192.168.0.1<br/>
+Google:google.com<br/>
 ip:192.168.0.144<br/>
-ip:youtube.com<br/>
+Youtube:youtube.com<br/>
 <br/>
 <br/>
 ![ScreenShot of script](https://raw.githubusercontent.com/FartOnCats/pinger/master/ss.PNG)
