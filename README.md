@@ -1,5 +1,5 @@
 # pinger
-A tool to test connection to a website<br/>
+A tool to test connection to another host<br/>
 To use the file %appdata%/ping.txt must be present<br/>
 the format for the txt file is Hostname:ipaddress/domainname. The hostname doesnt matter as long as the ip has a colon(:) before it<br/>
 example<br/>
